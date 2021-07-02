@@ -1,12 +1,53 @@
 <!doctype html>
 <html>
+
 <head>
 <title>HTML</title>
 <meta charset="urf-8">
+<style>
+.js{
+  font-weight: bold;
+  color:red;
+}
+#first{
+  color:green;
+}
+span{
+  color:blue;
+}
+</style>
 
 </head>
 <body>
+  <script>
+  var arr = [1,2,3];
+  var i = 0;
+  while(i < arr.length){
+    document.write('<li>'+arr[i]+'</li>');
+    i = i + 1;
+    var target = document.querySelector('body');
+  }
+  </script>
   <h1><a href="index.html">WEB</a></h1>
+  <input type ="button" value = "night" onclick="
+  if(this.value === 'night'){
+    target.style.backgroundColor = 'pink';
+    target.style.color = 'white';
+    this.value = 'day'
+  }
+  else{
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    this.value = 'night'
+  }
+
+  ">
+
+  <input type ="button" value = "day" onclick=
+  "target.style.backgroundColor = 'white';
+  target.style.color = 'black';
+  ">
+  <h2 style="background-color:coral;color:powderblue">JavaScript</h2>
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
@@ -14,15 +55,16 @@
   </ol>
   <h2>HTML</h2>
   <p><a href="http://html.spec.whatwg.org/" target="_blank" title="html specification">today im gonna do something great</a> <strong>creating <u>web</u> pages</strong> and web applications.
-  1등급, 즉 비급여 진료로 보험금을 한 번학교에서 실시하는 각종 예방교육(학교폭력 예방교육 2회, 성폭력 예방교육
-  2회, 생명존중교육 3회, 소방안전교육, 양성평등교육, 금연교육, 장애이해교
+  1등급, 즉 비급여 진료로 보험금을 한 번학교에서 실시하는 각종 예방교육(학교폭력 <span id="first" class="js">JavaScript</span>
+  예방교육 2회, 성폭력 예방교육
+  2회, 생명존중교육 3회, 소방안전교육, 양성평등교육, 금연교육, 장애이해교<span class="js">JavaScript</span>
   육, 교통안전교육, 정보윤리 의식교육 등)에 적극적으로 참여하여 청소년의
   사회적 문제에 대한 관심과 경각심을 갖는 계기가 됨. 교내체육대회(2013.0
-  4.19)에 능동적으로 참여함으로써 학급 구성원 간의 인화 단결을 위해 노력
+  4.19)에 능동적으로 참여함으로써 학급 구성원 간의 인화 단결을 위해 노력<span class="js">JavaScript</span>
   하였으며, 경주 천마총, 경주국립박물관, 불국사, 신라밀레니엄 문화유적 답
-  사활동 및 울산현대조선소, 대전과학연구단체홍보관, 국제지식재산연수원
+  사활동 및 울산현대조선소, 대전과학연구단체홍보관, 국제지식재산연수원<span class="js">JavaScript</span>
   발명교육센터, 국립중앙과학관, 첨단과학관(2013.05.13~16)에서 사제동행
-  답사활동을 실시하여 문화유적과 첨단과학에 대해 견문을 넓히는 계기가
+  답사활동을 실시하여 문화유적과 첨단과학에 대해 견문을 넓히는 계기가<span class="js">JavaScript</span>
   되었으며 급우들 간의 만남의 시간을 통해 더욱 끈끈한 우정을 다지게 되
   었음. 제23회 고려예술제(2013.12.6)에서 질서유지에 힘을 쏟는 등 다양한
   예술 활동을 통해 자신의 소질과 특기를 <img src="coding.jpg" width="100%">계발하고 숨은 예술적 능력을 신장
